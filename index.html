@@ -20,7 +20,6 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-
 <body>
 
   <header>
@@ -40,8 +39,7 @@
         <!-- MENU -->
 
         <ul class="menu list">
-          <li><a class="a" href="" target="">Studio</a></li>
-          <li><a class="a" href="" target="">Studio</a></li>
+          <li><a class="a active" href="" target="">Studio</a></li>
           <li><a class="a" href="./portfolio.html" target="">Portfolio</a></li>
           <li><a class="a" href="" target="">Contacts</a></li>
         </ul>
@@ -68,8 +66,13 @@
             </h1>
           </div>
 
-          <div class="divbutton">
-            <button type="button"><span>Order Service</span></button>
+          <div class="button-container">
+            <button type="button" class="button data-modal-open"><span>Order Service</span></button>
+            <div class="modal">
+              <div class="data-modal">
+                <button type="button" class="data-modal-close">&times;</button>
+              </div>
+            </div>
           </div>
 
         </div>
@@ -367,7 +370,7 @@
       </div>
     </section>
   </footer>
-
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
