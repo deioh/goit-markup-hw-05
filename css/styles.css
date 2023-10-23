@@ -91,6 +91,14 @@ body {
   gap: 40px;
 }
 
+ .toplinebg {
+  width: 1440px;  
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc); 
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08); 
+}
 /* HEADER SECTION END*/
 
 /* BODY SECTION  START*/
@@ -473,10 +481,51 @@ body {
 
 /* PORTFOLIO HTML */
 
+.portfolio-filters .btn-style {
+  color: var(--IRIS, #4D5AE5);
+  border-radius: 4px;
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--CLOUD, #f4f4fd);
+
+  /* Button Text */
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+letter-spacing: 0.64px;
+}
+
+.portfolio-filters .btn-style:hover {
+color: var(--WHITE, #FFF);
+
+  border-radius: 4px;
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-filters .btn-layout {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-filters .btn-filter {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 100px;
+  /* margin-bottom: 72px; */
+}
+
 .portfolio-services {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 72px;
+  margin-bottom: 120px;
 }
 
 .portfolio-services .list {
