@@ -174,7 +174,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 .hero-image .btn-close {
