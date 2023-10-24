@@ -53,13 +53,7 @@ body {
 }
 
 .section-topline-logo {
-  padding: 24px;
-  padding-left: 156px;
   padding-right: 40px;
-}
-
-.section-topline .contacts {
-  padding-left: 332px;
 }
 
 .section-topline .active::after {
@@ -73,22 +67,30 @@ body {
   top: 23px;
 }
 
-.contacts .a {
-  color: var(--SLATE);
-}
-
 /* topline flex  */
 
 .section-topline {
   display: inline-flex;
   height: 72px;
+  width: 1440px;
+  justify-content: center;
   align-items: center;
-  flex-shrink: 0;
 }
-.section-topline .menu {
+.section-topline .menu,
+.section-topline .contacts {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+
+.section-topline .logo {
+  padding-right: 40px;
+}
+.section-topline .contacts {
+  padding-left: 332px;
+}
+.contacts .a {
+  color: var(--SLATE);
 }
 
 .toplinebg {
