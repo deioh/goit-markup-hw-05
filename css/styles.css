@@ -570,6 +570,7 @@ body {
   background-color: var(--IRIS);
   transform: translatey(100%);
   transition: transform 250ms ease-in-out;
+  opacity: 0.95;
 }
 
 .overlay-p {
